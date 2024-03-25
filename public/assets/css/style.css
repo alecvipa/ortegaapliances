@@ -1,0 +1,310 @@
+
+.fonts3{
+    font-family: 'Nunito Sans', sans-serif !important;
+
+}
+.footer{
+    padding-top: 3%;
+    background-color: #172536;
+    color: white;
+
+}
+.logoFluid{
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.divDelivery{
+    background-color:   #cbc5c0  ;
+    padding-top: 1%;
+    padding-bottom: 0.5%;
+}
+.mapGoogle{
+    width: 100%;
+}
+.dondeEncontrarnos{
+    margin-bottom: 2%;
+}
+.pointer {
+    cursor: pointer;
+}
+.navBar{
+   
+    color: white;
+}
+.imageOptions{
+    width: 80% !important;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+
+.btnContacto{
+    display: block !important;
+    margin-right: auto  !important;
+    margin-left: auto !important;
+    font-size: 1.5rem !important;
+    margin-top: 4%;
+}
+.bannerDivInicio{
+    height: 40rem;
+    background-image: url("/assets/images/bannerAppliance.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 25% 315%;
+}
+.greenCard{
+    margin-top: -5%;
+    padding: 2%;
+    background-color: #172536  !important ;
+}
+.nosotrosSomos{
+    margin-top: -3%;
+    
+}
+#nosotros{
+    margin-bottom: 5%;
+}
+
+.privacidadBanner{
+    height: 36rem;
+    background-image: url("/assets/images/bannerPrivacidad.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.form-check-input{
+    background-color: black !important;
+}
+.tablePrivacidad{
+    margin-bottom: 15%;
+}
+.divCatchUp{
+    padding-top: 3%;
+    margin-top: -3%;
+}
+.navbar-toggler{
+    color: white !important;
+}
+.imageLogoInicio{
+   width: 6rem;
+   margin-bottom: 10%;
+}
+.nav-link:hover{
+    color:  #fbcb43 !important;
+}
+.construc{
+    margin-top: -10%;
+}
+.construcDescanso2{
+    height: 10rem;
+    background-image: url("/assets/images/construccionImg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 25% 43%;
+}
+.bannerServiciosInicio{
+    height: 25rem;
+    background-image: url("/assets/images/bannerServiciosFireH.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 25% 47%;
+
+}
+.cardNosotrosDiv1{
+    background-color: #fbcb43 !important;
+    border-radius: 0px !important;
+    font-weight: bolder !important;
+}
+.img-casco2{
+    width: 80%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.btnIn{
+    background-color: #b80605 !important;
+    color: white !important;
+}
+.bgRedRuta{
+    background-color: #b80605 !important;
+    color: white !important;
+
+}
+.quienesSomosDiv{
+    background-color: grey;
+    margin-top: -10%;
+    padding-top: 3%;
+}
+.cardLinkNosotros:hover{
+    color: black !important;
+}
+.orangeCard{
+    background-color:  #fc764d;
+    padding: 3%;
+    margin-top: -5%;
+}
+.blueIshCard{
+    background-color:  #ac7f6d;
+    padding: 3%;
+    margin-top: -5%;
+    margin-bottom: 5%;
+}
+.orangeIshCard{
+    background-color:   #4576ae;
+    padding: 3%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+}
+.iconLogo{
+    margin-top: 7% !important;
+}
+.textGreenIsh{
+    color: #4576ae !important;
+}
+.tierraDiv{
+    margin-bottom: 3%;
+}
+.contactoDiv{
+    background-color:  #def4e3  !important;
+    padding-top: 15%;
+    padding-bottom: 1%;
+}
+.logoRutaJpg{
+    width: 20%;
+    margin-bottom: 3%;
+}
+.ventajasDiv{
+    background-color:  #def4e3  !important;
+    padding-top: 3%;
+    padding-bottom: 1%;
+}
+.imagesRuta{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.carouselRutaDos{
+    display: block;
+    margin-left: auto;
+    margin-left: auto;
+    margin-top: 7%;
+}
+.misionVision{
+    margin-top: 6%;
+}
+@media (min-width: 992px) {
+    .logoFluid{
+        margin-top: 3%;
+        
+    }
+    .bannerDivInicio{
+        height: 57rem;
+    }
+    .footer{
+        /* margin-top: -9%; */
+        padding-bottom: 2%;
+    }
+    .quieneSomosTitle{
+        margin-top: -6%;
+        font-size: 3rem;
+    }
+    
+    .rounded-tr-lg-0 {
+        border-top-right-radius: 0;
+    }
+
+    .rounded-bl-lg-5 {
+        border-bottom-left-radius: 0.5rem;
+    }
+}
+
+@media(max-width:991px){
+    .btnIn{
+        margin-bottom: 7%;
+    }
+    .antesDeContactoDiv{
+        margin-bottom: -10% !important;
+    }
+   
+    .bottomMargin18{
+        margin-bottom: -18% !important;
+        
+    }
+    .contactoDiv{
+        padding-top: 50%;
+    }
+    .blueIshCard{
+        margin-top: -30%;
+        margin-bottom: 15%;
+    }
+    .logoFluid{
+        width: 70%;
+    }
+    .orangeCard{
+        margin-top: -40%;
+    }
+    
+    .videoDiv{
+        margin-top: -20% !important;
+    }
+    .excavarDiv{
+        margin-top: -25%;
+    }
+    .quieneSomosTitle{
+        font-size: 36px;
+    }
+    .bannerServiciosInicio{
+        height: 15rem;
+        background-image: url("/assets/images/bannerServiciosFireH.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50% 47%;
+    
+    }
+    .contentValores{
+        margin-top: 5%;
+        padding: 2%;
+    }
+    .img-casco2{
+        display: none;
+    }
+    .cardNosotrosDiv1{
+        width: 18rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .construc{
+        margin-top: -60%;
+    }
+    .imageLogoInicio{
+        width: 30%;
+        margin-bottom: -3%;
+        margin-left: -3%;
+    }
+    .bannerDivInicio{
+        height: 27rem;
+        background-position: 54% 140%;
+    }
+    .divCatchUp{
+        display: none;
+    }
+    .footer{
+        padding-top: 10%;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    .responsiveMarginCard{
+        margin-top: 5%;
+    }
+}
