@@ -29,6 +29,8 @@ const targetBaseUrl = 'https://www.ruta200.com.mx/inicio';
 
 
 
+
+
 // Routes
 app.get('/', function (req, res) {
     res.redirect(targetBaseUrl);

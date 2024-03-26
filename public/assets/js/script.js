@@ -1,11 +1,11 @@
 function navB() {
-    if(window.scrollY==0){
+    if (window.scrollY == 0) {
         //user scrolled to the top of the page
-        document.getElementById("navBars").style.backgroundColor = "" ;
+        document.getElementById("navBars").style.backgroundColor = "";
     }
-    else{
+    else {
 
-        document.getElementById("navBars").style.backgroundColor = "#d55845" ;
+        document.getElementById("navBars").style.backgroundColor = "#d55845";
     }
-    
+
 }
