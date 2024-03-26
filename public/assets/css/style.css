@@ -109,6 +109,7 @@
     background-position: 25% 315%;
 }
 
+
 .greenCard {
     margin-top: -5%;
     padding: 2%;
@@ -252,7 +253,7 @@
 }
 
 .contactoDiv {
-    background-color: #def4e3 !important;
+    background-color:  #93948f  !important;
     padding-top: 15%;
     padding-bottom: 1%;
 }
@@ -314,6 +315,14 @@
 }
 
 @media(max-width:991px) {
+    .titleStore{
+        font-size: 1rem;
+    }
+    .divDelivery {
+        padding-top: 5%;
+        padding-bottom: 1%;
+    }
+    
     .btnIn {
         margin-bottom: 7%;
     }
@@ -392,8 +401,11 @@
     }
 
     .bannerDivInicio {
-        height: 27rem;
+        height: 44rem;
         background-position: 54% 140%;
+        background-image: url("/assets/images/bannerStory.jpg");
+        margin-top: 10%;
+
     }
 
     .divCatchUp {
