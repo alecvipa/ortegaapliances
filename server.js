@@ -25,7 +25,7 @@ app.engine("handlebars", exphbs.engine({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
 
 // Redirect to https://xyncs.com
-const targetBaseUrl = 'https://www.ruta200.com.mx/inicio';
+// const targetBaseUrl = 'https://www.ruta200.com.mx/inicio';
 
 
 
@@ -33,8 +33,8 @@ const targetBaseUrl = 'https://www.ruta200.com.mx/inicio';
 
 // Routes
 app.get('/', function (req, res) {
-    res.redirect(targetBaseUrl);
-    // res.render('inicio');
+    // res.redirect(targetBaseUrl);
+    res.render('home');
 
 });
 // app.get('/inicio', function (req, res) {
