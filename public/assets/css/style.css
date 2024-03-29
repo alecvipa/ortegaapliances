@@ -7,6 +7,9 @@
 #myImg:hover {
     opacity: 0.7;
 }
+#navBars2{
+    background-color: #ff8229e7;
+}
 #myImgSec, #myImgThird, #myImgFour{
     border-radius: 5px;
     cursor: pointer;
@@ -470,6 +473,15 @@
 }
 
 @media(max-width:991px) {
+    .stovesBann{
+        height: 40rem;
+        background-image: url("/assets/images/bannerStoveCel.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* background-position: 25% 315%; */
+    
+    }    
     .titleStore {
         font-size: 1rem;
     }
