@@ -10,13 +10,13 @@
 #navBars2{
     background-color: #ff8229e7;
 }
-#myImgSec, #myImgThird, #myImgFour{
+#myImgSec, #myImgThird, #myImgFour, #myImgFifth, #myImgSixth, #myImgSeventh{
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
 }
 
-#myImgSec:hover, #myImgThird:hover, #myImgFour:hover {
+#myImgSec:hover, #myImgThird:hover, #myImgFour:hover, #myImgFifth:hover, #myImgSixth:hover, #myImgSeventh:hover {
     opacity: 0.7;
 }
 
@@ -24,7 +24,7 @@
 
 
 /* The Modal (background) */
-.modal, .modalSec, .modalThird, .modalFour {
+.modal, .modalSec, .modalThird, .modalFour, .modalFifth, .modalSixth, .modalSeventh {
     display: none;
     /* Hidden by default */
     position: fixed;
@@ -50,7 +50,7 @@
 
 
 /* Modal Content (image) */
-.modal-content, .modal-contentSec, .modal-contentThird, .modal-contentFour {
+.modal-content, .modal-contentSec, .modal-contentThird, .modal-contentFour, .modal-contentFifth, .modal-contentSixth, .modal-contentSeventh {
     margin: auto;
     display: block;
     width: 80%;
@@ -59,7 +59,7 @@
 }
 
 /* Caption of Modal Image */
-#caption, #captionSec, #captionThird, #captionFour {
+#caption, #captionSec, #captionThird, #captionFour, #captionFifth, #captionSixth, #captionSeventh {
     margin: auto;
     display: block;
     width: 80%;
@@ -81,7 +81,7 @@
     animation-name: zoom;
     animation-duration: 0.6s;
 }
-.modal-contentSec, #captionSec, .modal-contentThird, #captionThird, .modal-contentFour, #captionFour {
+.modal-contentSec, #captionSec, .modal-contentThird, #captionThird, .modal-contentFour, #captionFour, .modal-contentFifth, #captionFifth, .modal-contentSixth, #captionSixth, .modal-contentSeventh, #captionSeventh {
     -webkit-animation-name: zoom;
     -webkit-animation-duration: 0.6s;
     animation-name: zoom;
@@ -110,7 +110,7 @@
 }
 
 /* The Close Button */
-.close, .closeSec, .closeThird, .closeFour {
+.close, .closeSec, .closeThird, .closeFour, .closeFifth, .closeSixth, .closeSeventh {
     position: absolute;
     top: 50px;
     right: 35px;
@@ -121,7 +121,7 @@
 }
 
 
-.close :hover, .close:focus, .closeSec:hover,.closeSec:focus, .closeThird:hover,.closeThird:focus, .closeFour:hover,.closeFour:focus {
+.close :hover, .close:focus, .closeSec:hover,.closeSec:focus, .closeThird:hover,.closeThird:focus, .closeFour:hover,.closeFour:focus, .closeFifth:hover,.closeFifth:focus, .closeSixth:hover,.closeSixth:focus, .closeSeventh:hover,.closeSeventh:focus {
     color: #bbb;
     text-decoration: none;
     cursor: pointer;
@@ -131,7 +131,7 @@
 
 /* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 700px) {
-    .modal-content, .modal-contentSec, .modal-contentThird, .modal-contentFour {
+    .modal-content, .modal-contentSec, .modal-contentThird, .modal-contentFour, .modal-contentFifth, .modal-contentSixth, .modal-contentSeventh {
         width: 100%;
     }
 }
@@ -264,9 +264,16 @@
     background-repeat: no-repeat;
     background-size: cover;
     /* background-position: 25% 315%; */
+}
+.fridgesBann{
+    height: 40rem;
+    background-image: url("/assets/images/fridgesBanner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: 25% 315%; */
 
 }
-
 
 .greenCard {
     margin-top: -5%;
@@ -480,8 +487,14 @@
         background-repeat: no-repeat;
         background-size: cover;
         /* background-position: 25% 315%; */
-    
     }    
+    .fridgesBann{
+        height: 40rem;
+        background-image: url("/assets/images/bannerFridgesCel.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
     .titleStore {
         font-size: 1rem;
     }
