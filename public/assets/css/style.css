@@ -272,7 +272,13 @@
     background-repeat: no-repeat;
     background-size: cover;
     /* background-position: 25% 315%; */
-
+}
+.washersBann{
+    height: 40rem;
+    background-image: url("/assets/images/washersBanner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .greenCard {
@@ -480,6 +486,9 @@
 }
 
 @media(max-width:991px) {
+    .washersBann{
+        background-image: url("/assets/images/bannerWashersCel.jpg");
+    }
     .stovesBann{
         height: 40rem;
         background-image: url("/assets/images/bannerStoveCel.jpg");
