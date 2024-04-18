@@ -273,6 +273,30 @@
     background-size: cover;
     /* background-position: 25% 315%; */
 }
+.installBanner{
+    height: 35rem;
+    background-image: url("/assets/images/appInstaImage.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: 25% 315%; */
+}
+
+.repairBanner{
+    height: 35rem;
+    background-image: url("/assets/images/appInstaRepair.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: 25% 315%; */
+}
+.deliveryBanner{
+    height: 35rem;
+    background-image: url("/assets/images/appInstaDelivery.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .washersBann{
     height: 40rem;
     background-image: url("/assets/images/washersBanner.jpg");
@@ -486,6 +510,10 @@
 }
 
 @media(max-width:991px) {
+    .deliveryBanner, .repairBanner, .installBanner{
+        height: 24rem;
+    }
+  
     .washersBann{
         background-image: url("/assets/images/bannerWashersCel.jpg");
     }
@@ -497,6 +525,7 @@
         background-size: cover;
         /* background-position: 25% 315%; */
     }    
+
     .fridgesBann{
         height: 40rem;
         background-image: url("/assets/images/bannerFridgesCel.jpg");
